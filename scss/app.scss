@@ -1,5 +1,21 @@
+// Color Variables
+$white: #fff;
+$blue: #3498db;
+$background: #ecf0f1;
+$light-gray: #bdc3c7;
+$gray: #7f8c8d;
+$dark-gray: #34495e;
+$darker-gray: #2c3e50;
+
+
+// Font Variables
+$headline-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 @import "settings";
 @import "foundation";
+@import "overrides";
+
+
 
 // Or selectively include components
 // @import
