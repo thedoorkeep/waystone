@@ -8,6 +8,11 @@ $dark-gray: #34495e;
 $darker-gray: #2c3e50;
 
 
+// Media query sizes
+$phone: "(max-width: 40em)";
+$tablet: "(max-width: 46em)";
+// $desktop: "(min-width: 47em)";
+
 // Font Variables
 $headline-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
@@ -54,3 +59,4 @@ $headline-font: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
