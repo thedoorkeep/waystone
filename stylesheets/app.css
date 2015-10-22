@@ -9736,38 +9736,226 @@ th.hide-for-touch {
   }
 }
 /* line 1, ../scss/_overrides.scss */
-.your-class-name {
+.box-6 {
   display: block;
   padding: 0;
   margin: 0 -0.625rem;
 }
 /* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
-.your-class-name:before, .your-class-name:after {
+.box-6:before, .box-6:after {
   content: " ";
   display: table;
 }
 /* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
-.your-class-name:after {
+.box-6:after {
   clear: both;
 }
 /* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-.your-class-name > li {
+.box-6 > li {
   display: block;
   float: left;
   height: auto;
   padding: 0 0.625rem 1.25rem;
 }
 /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-.your-class-name > li {
+.box-6 > li {
   list-style: none;
   padding: 0 0.625rem 1.25rem;
   width: 16.66667%;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-.your-class-name > li:nth-of-type(1n) {
+.box-6 > li:nth-of-type(1n) {
   clear: none;
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
-.your-class-name > li:nth-of-type(6n+1) {
+.box-6 > li:nth-of-type(6n+1) {
   clear: both;
+}
+
+/* line 14, ../scss/_overrides.scss */
+.box-2 {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem;
+}
+/* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.box-2:before, .box-2:after {
+  content: " ";
+  display: table;
+}
+/* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.box-2:after {
+  clear: both;
+}
+/* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+.box-2 > li {
+  display: block;
+  float: left;
+  height: auto;
+  padding: 0 0.625rem 1.25rem;
+}
+/* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+.box-2 > li {
+  list-style: none;
+  padding: 0 0.625rem 1.25rem;
+  width: 50%;
+}
+/* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+.box-2 > li:nth-of-type(1n) {
+  clear: none;
+}
+/* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+.box-2 > li:nth-of-type(2n+1) {
+  clear: both;
+}
+
+@media (max-width: 46em) {
+  /* line 46, ../scss/_overrides.scss */
+  .box-6 {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625rem;
+  }
+  /* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-6:before, .box-6:after {
+    content: " ";
+    display: table;
+  }
+  /* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-6:after {
+    clear: both;
+  }
+  /* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-6 > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.625rem 1.25rem;
+  }
+  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-6 > li {
+    list-style: none;
+    padding: 0 0.625rem 1.25rem;
+    width: 33.33333%;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-6 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-6 > li:nth-of-type(3n+1) {
+    clear: both;
+  }
+
+  /* line 53, ../scss/_overrides.scss */
+  .box-2 {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625rem;
+  }
+  /* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-2:before, .box-2:after {
+    content: " ";
+    display: table;
+  }
+  /* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-2:after {
+    clear: both;
+  }
+  /* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-2 > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.625rem 1.25rem;
+  }
+  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-2 > li {
+    list-style: none;
+    padding: 0 0.625rem 1.25rem;
+    width: 100%;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-2 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-2 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
+}
+@media (max-width: 40em) {
+  /* line 63, ../scss/_overrides.scss */
+  .box-6 {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625rem;
+  }
+  /* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-6:before, .box-6:after {
+    content: " ";
+    display: table;
+  }
+  /* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-6:after {
+    clear: both;
+  }
+  /* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-6 > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.625rem 1.25rem;
+  }
+  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-6 > li {
+    list-style: none;
+    padding: 0 0.625rem 1.25rem;
+    width: 50%;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-6 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-6 > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  /* line 70, ../scss/_overrides.scss */
+  .box-2 {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625rem;
+  }
+  /* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-2:before, .box-2:after {
+    content: " ";
+    display: table;
+  }
+  /* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-2:after {
+    clear: both;
+  }
+  /* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-2 > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.625rem 1.25rem;
+  }
+  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-2 > li {
+    list-style: none;
+    padding: 0 0.625rem 1.25rem;
+    width: 100%;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-2 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-2 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
 }
