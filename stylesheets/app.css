@@ -9772,7 +9772,13 @@ th.hide-for-touch {
   clear: both;
 }
 
-/* line 17, ../scss/_overrides.scss */
+/* line 18, ../scss/_overrides.scss */
+p {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* line 24, ../scss/_overrides.scss */
 .box-2 {
   display: block;
   padding: 0;
@@ -9810,7 +9816,7 @@ th.hide-for-touch {
 }
 
 @media (max-width: 46em) {
-  /* line 31, ../scss/_overrides.scss */
+  /* line 38, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -9847,7 +9853,7 @@ th.hide-for-touch {
     clear: both;
   }
 
-  /* line 38, ../scss/_overrides.scss */
+  /* line 45, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -9885,7 +9891,7 @@ th.hide-for-touch {
   }
 }
 @media (max-width: 40em) {
-  /* line 48, ../scss/_overrides.scss */
+  /* line 55, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -9922,7 +9928,7 @@ th.hide-for-touch {
     clear: both;
   }
 
-  /* line 55, ../scss/_overrides.scss */
+  /* line 62, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -9958,4 +9964,28 @@ th.hide-for-touch {
   .box-2 > li:nth-of-type(1n+1) {
     clear: both;
   }
+}
+/* line 71, ../scss/_overrides.scss */
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 72, ../scss/_overrides.scss */
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 73, ../scss/_overrides.scss */
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 74, ../scss/_overrides.scss */
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 75, ../scss/_overrides.scss */
+h4 {
+  font-family: 'Oswald', sans-serif;
 }

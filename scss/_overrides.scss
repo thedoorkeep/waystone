@@ -11,7 +11,14 @@
     $spacing: $block-grid-default-spacing,
     // This controls whether or not base styles come through, set to false to leave out.
     $base-style: true
+
   );
+}
+
+p{
+    overflow: hidden;
+    white-space: nowrap;
+
 }
 
 .box-2 {
@@ -60,6 +67,13 @@
     );
   }
 }
+
+body {font-family: 'Oswald', sans-serif;}
+h1 {font-family: 'Oswald', sans-serif;}
+h2 {font-family: 'Oswald', sans-serif;}
+h3 {font-family: 'Oswald', sans-serif;}
+h4 {font-family: 'Oswald', sans-serif;}
+
 
 // Top Bar Variables
 //
