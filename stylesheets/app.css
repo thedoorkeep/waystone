@@ -9740,6 +9740,7 @@ th.hide-for-touch {
   display: block;
   padding: 0;
   margin: 0 -0.625rem;
+  text-align: center;
 }
 /* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
 .box-6:before, .box-6:after {
@@ -9771,14 +9772,12 @@ th.hide-for-touch {
 .box-6 > li:nth-of-type(6n+1) {
   clear: both;
 }
-
-/* line 18, ../scss/_overrides.scss */
-p {
-  overflow: hidden;
-  white-space: nowrap;
+/* line 17, ../scss/_overrides.scss */
+.box-6 li {
+  display: inline-block;
 }
 
-/* line 24, ../scss/_overrides.scss */
+/* line 23, ../scss/_overrides.scss */
 .box-2 {
   display: block;
   padding: 0;
@@ -9816,7 +9815,7 @@ p {
 }
 
 @media (max-width: 46em) {
-  /* line 38, ../scss/_overrides.scss */
+  /* line 37, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -9853,7 +9852,7 @@ p {
     clear: both;
   }
 
-  /* line 45, ../scss/_overrides.scss */
+  /* line 44, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -9891,7 +9890,7 @@ p {
   }
 }
 @media (max-width: 40em) {
-  /* line 55, ../scss/_overrides.scss */
+  /* line 54, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -9928,7 +9927,7 @@ p {
     clear: both;
   }
 
-  /* line 62, ../scss/_overrides.scss */
+  /* line 61, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -9965,27 +9964,75 @@ p {
     clear: both;
   }
 }
-/* line 71, ../scss/_overrides.scss */
+/* line 70, ../scss/_overrides.scss */
+.main-page {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* line 77, ../scss/_overrides.scss */
+.product-link {
+  padding-top: 10px;
+}
+
+/* line 81, ../scss/_overrides.scss */
+.product-price {
+  padding-top: -20px;
+}
+
+/* line 85, ../scss/_overrides.scss */
+ul.tabs {
+  text-align: center;
+}
+/* line 87, ../scss/_overrides.scss */
+ul.tabs li {
+  float: none !important;
+  display: inline-block;
+  background-color: 123456;
+}
+
+/* line 94, ../scss/_overrides.scss */
+.custom-flex-video-class {
+  text-align: center;
+}
+/* line 96, ../scss/_overrides.scss */
+.custom-flex-video-class li {
+  display: inline-block;
+}
+
+/* line 101, ../scss/_overrides.scss */
+.product-top {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* line 107, ../scss/_overrides.scss */
+p {
+  font-size: 10pt;
+}
+
+/* line 128, ../scss/_overrides.scss */
 body {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 72, ../scss/_overrides.scss */
+/* line 129, ../scss/_overrides.scss */
 h1 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 73, ../scss/_overrides.scss */
+/* line 130, ../scss/_overrides.scss */
 h2 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 74, ../scss/_overrides.scss */
+/* line 131, ../scss/_overrides.scss */
 h3 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 75, ../scss/_overrides.scss */
+/* line 132, ../scss/_overrides.scss */
 h4 {
   font-family: 'Oswald', sans-serif;
 }
