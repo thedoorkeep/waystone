@@ -1,3 +1,42 @@
+.header {
+  background-image: url('../images/dfnsdvnb.png');
+  background-color: green;
+  background-size: cover;
+  background-position: center center;
+  height: 15vh;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.header h2, .header h4 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  font-size: 3em;
+  margin-top: -5px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.contain-to-grid {
+    height: 52px;
+}
+
+.gamelist {
+  margin-top: 50px;
+}
+
+.gamelist li {
+  // overflow: ;
+  height: 100px;
+  display: block;
+}
+
 
 .box-6 {
 
