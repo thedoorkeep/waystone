@@ -9848,27 +9848,152 @@ a {
 }
 
 /* line 102, ../scss/_overrides.scss */
+.category1 {
+  background-image: url("http://i.ytimg.com/vi/sx15eTtzCTw/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+/* line 113, ../scss/_overrides.scss */
+.category1 h2 {
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+/* line 120, ../scss/_overrides.scss */
+.category2 {
+  background-image: url("http://www.cheatography.com/uploads/davechild_1359015936_catan-photo.png");
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+/* line 131, ../scss/_overrides.scss */
+.category2 h2 {
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+/* line 138, ../scss/_overrides.scss */
+.category3 {
+  background-image: url("http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/04/1-JJKathy-NO-LOGO.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+/* line 149, ../scss/_overrides.scss */
+.category3 h2 {
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+/* line 156, ../scss/_overrides.scss */
+.category4 {
+  background-image: url("http://www.scoopquest.com/wp-content/uploads/2015/08/fantasy-landscapes-artists.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+/* line 167, ../scss/_overrides.scss */
+.category4 h2 {
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+/* line 174, ../scss/_overrides.scss */
+.category5 {
+  background-image: url("http://conceptartworld.com/wp-content/uploads/2013/05/Creating_a_Sci-Fi_Robot_Warrior_in_ZBrush_04b.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+/* line 185, ../scss/_overrides.scss */
+.category5 h2 {
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+/* line 192, ../scss/_overrides.scss */
+.category6 {
+  background-image: url("http://cdns.yournewswire.com/wp-content/uploads/2015/03/spies-spying-on-spies-600x264.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+/* line 203, ../scss/_overrides.scss */
+.category6 h2 {
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+/* line 211, ../scss/_overrides.scss */
 .contain-to-grid {
   height: 52px;
 }
 
-/* line 106, ../scss/_overrides.scss */
+/* line 215, ../scss/_overrides.scss */
 .gamelist {
   margin-top: 50px;
 }
 
-/* line 110, ../scss/_overrides.scss */
+/* line 219, ../scss/_overrides.scss */
 .gamelist li {
   height: 100px;
   display: block;
 }
 
-/* line 116, ../scss/_overrides.scss */
+/* line 225, ../scss/_overrides.scss */
 .product-description {
   padding: 20%;
 }
 
-/* line 123, ../scss/_overrides.scss */
+/* line 229, ../scss/_overrides.scss */
+.communities h3 {
+  margin-top: 30px;
+}
+
+/* line 233, ../scss/_overrides.scss */
 .box-6 {
   display: block;
   padding: 0;
@@ -9905,12 +10030,12 @@ a {
 .box-6 > li:nth-of-type(6n+1) {
   clear: both;
 }
-/* line 138, ../scss/_overrides.scss */
+/* line 248, ../scss/_overrides.scss */
 .box-6 li {
   display: inline-block;
 }
 
-/* line 144, ../scss/_overrides.scss */
+/* line 255, ../scss/_overrides.scss */
 .box-2 {
   display: block;
   padding: 0;
@@ -9947,8 +10072,45 @@ a {
   clear: both;
 }
 
+/* line 268, ../scss/_overrides.scss */
+.box-3 {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem;
+}
+/* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.box-3:before, .box-3:after {
+  content: " ";
+  display: table;
+}
+/* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.box-3:after {
+  clear: both;
+}
+/* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+.box-3 > li {
+  display: block;
+  float: left;
+  height: auto;
+  padding: 0 0.625rem 1.25rem;
+}
+/* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+.box-3 > li {
+  list-style: none;
+  padding: 0 0.625rem 1.25rem;
+  width: 33.33333%;
+}
+/* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+.box-3 > li:nth-of-type(1n) {
+  clear: none;
+}
+/* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+.box-3 > li:nth-of-type(3n+1) {
+  clear: both;
+}
+
 @media (max-width: 46em) {
-  /* line 158, ../scss/_overrides.scss */
+  /* line 282, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -9985,7 +10147,7 @@ a {
     clear: both;
   }
 
-  /* line 165, ../scss/_overrides.scss */
+  /* line 289, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -10021,9 +10183,46 @@ a {
   .box-2 > li:nth-of-type(1n+1) {
     clear: both;
   }
+
+  /* line 296, ../scss/_overrides.scss */
+  .box-3 {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625rem;
+  }
+  /* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-3:before, .box-3:after {
+    content: " ";
+    display: table;
+  }
+  /* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-3:after {
+    clear: both;
+  }
+  /* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-3 > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.625rem 1.25rem;
+  }
+  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-3 > li {
+    list-style: none;
+    padding: 0 0.625rem 1.25rem;
+    width: 100%;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-3 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-3 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
 }
 @media (max-width: 40em) {
-  /* line 175, ../scss/_overrides.scss */
+  /* line 306, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -10060,7 +10259,7 @@ a {
     clear: both;
   }
 
-  /* line 182, ../scss/_overrides.scss */
+  /* line 313, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -10096,96 +10295,133 @@ a {
   .box-2 > li:nth-of-type(1n+1) {
     clear: both;
   }
+
+  /* line 320, ../scss/_overrides.scss */
+  .box-3 {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625rem;
+  }
+  /* line 239, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-3:before, .box-3:after {
+    content: " ";
+    display: table;
+  }
+  /* line 240, ../bower_components/foundation/scss/foundation/components/_global.scss */
+  .box-3:after {
+    clear: both;
+  }
+  /* line 51, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-3 > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.625rem 1.25rem;
+  }
+  /* line 62, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-3 > li {
+    list-style: none;
+    padding: 0 0.625rem 1.25rem;
+    width: 100%;
+  }
+  /* line 69, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-3 > li:nth-of-type(1n) {
+    clear: none;
+  }
+  /* line 70, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
+  .box-3 > li:nth-of-type(1n+1) {
+    clear: both;
+  }
 }
-/* line 191, ../scss/_overrides.scss */
+/* line 329, ../scss/_overrides.scss */
 .main-page {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 198, ../scss/_overrides.scss */
+/* line 336, ../scss/_overrides.scss */
 .product-link {
   padding-top: 10px;
 }
 
-/* line 202, ../scss/_overrides.scss */
+/* line 340, ../scss/_overrides.scss */
 .product-price {
   padding-top: -20px;
 }
 
-/* line 206, ../scss/_overrides.scss */
+/* line 344, ../scss/_overrides.scss */
 ul.tabs {
   text-align: center;
 }
-/* line 208, ../scss/_overrides.scss */
+/* line 346, ../scss/_overrides.scss */
 ul.tabs li {
   float: none !important;
   display: inline-block;
   background-color: 123456;
 }
 
-/* line 215, ../scss/_overrides.scss */
+/* line 353, ../scss/_overrides.scss */
 .custom-flex-video-class {
   text-align: center;
 }
-/* line 217, ../scss/_overrides.scss */
+/* line 355, ../scss/_overrides.scss */
 .custom-flex-video-class li {
   display: inline-block;
 }
 
-/* line 222, ../scss/_overrides.scss */
+/* line 360, ../scss/_overrides.scss */
 .product-top {
   margin-top: 20px;
   padding: 10px;
 }
 
-/* line 228, ../scss/_overrides.scss */
+/* line 366, ../scss/_overrides.scss */
 p {
   font-size: 10pt;
 }
 
-/* line 251, ../scss/_overrides.scss */
+/* line 389, ../scss/_overrides.scss */
 body {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 252, ../scss/_overrides.scss */
+/* line 390, ../scss/_overrides.scss */
 h1 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 253, ../scss/_overrides.scss */
+/* line 391, ../scss/_overrides.scss */
 h2 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 254, ../scss/_overrides.scss */
+/* line 392, ../scss/_overrides.scss */
 h3 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 255, ../scss/_overrides.scss */
+/* line 393, ../scss/_overrides.scss */
 h4 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 256, ../scss/_overrides.scss */
+/* line 394, ../scss/_overrides.scss */
 h5 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 257, ../scss/_overrides.scss */
+/* line 395, ../scss/_overrides.scss */
 h6 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 258, ../scss/_overrides.scss */
+/* line 396, ../scss/_overrides.scss */
 h7 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 259, ../scss/_overrides.scss */
+/* line 397, ../scss/_overrides.scss */
 h8 {
   font-family: 'Oswald', sans-serif;
 }

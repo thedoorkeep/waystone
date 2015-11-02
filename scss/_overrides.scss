@@ -99,6 +99,115 @@ a {
 
 }
 
+.category1 {
+  background-image: url('http://i.ytimg.com/vi/sx15eTtzCTw/maxresdefault.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+.category1 h2 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.category2 {
+  background-image: url('http://www.cheatography.com/uploads/davechild_1359015936_catan-photo.png');
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+.category2 h2 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.category3 {
+  background-image: url('http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/04/1-JJKathy-NO-LOGO.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+.category3 h2 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.category4 {
+  background-image: url('http://www.scoopquest.com/wp-content/uploads/2015/08/fantasy-landscapes-artists.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+.category4 h2 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.category5 {
+  background-image: url('http://conceptartworld.com/wp-content/uploads/2013/05/Creating_a_Sci-Fi_Robot_Warrior_in_ZBrush_04b.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+.category5 h2 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.category6 {
+  background-image: url('http://cdns.yournewswire.com/wp-content/uploads/2015/03/spies-spying-on-spies-600x264.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 200px;
+  margin-top: 10px;
+  padding: 2px;
+  text-align: center;
+}
+
+.category6 h2 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+
 .contain-to-grid {
     height: 52px;
 }
@@ -117,8 +226,9 @@ a {
   padding:20%;
 }
 
-
-
+.communities h3{
+  margin-top:30px;
+}
 
 .box-6 {
 
@@ -141,11 +251,25 @@ a {
 
 }
 
+
 .box-2 {
   @include block-grid(
     // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
     // Available options: 1-12 by default, and false.
     $per-row: 2,
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: $block-grid-default-spacing,
+    // This controls whether or not base styles come through, set to false to leave out.
+    $base-style: true
+  );
+}
+
+.box-3 {
+  @include block-grid(
+    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+    // Available options: 1-12 by default, and false.
+    $per-row: 3,
     // This controls how much space is between each item in the block grid.
     // Use a variable or any pixel or em values.
     $spacing: $block-grid-default-spacing,
@@ -169,6 +293,13 @@ a {
       $base-style: true
     );
   }
+  .box-3 {
+    @include block-grid(
+      $per-row: 1,
+      $spacing: $block-grid-default-spacing,
+      $base-style: true
+    );
+  }
 }
 
 @media #{$phone} {
@@ -180,6 +311,13 @@ a {
     );
   }
   .box-2 {
+    @include block-grid(
+      $per-row: 1,
+      $spacing: $block-grid-default-spacing,
+      $base-style: true
+    );
+  }
+  .box-3 {
     @include block-grid(
       $per-row: 1,
       $spacing: $block-grid-default-spacing,
