@@ -9,54 +9,57 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-      <nav class="top-bar" data-topbar role="navigation" display="block">
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="index.html"><img src="images/logo_header.png" width="100px"> </a></h1>
-        </li>
-         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
+      <div class="contain-to-grid sticky">
 
-      <section class="top-bar-section">
-      <!-- Left Nav Section -->
-        <ul class="left">
-          <li class="has-dropdown">
-            <a href="#">Interests</a>
-            <ul class="dropdown">
-              <li><a href="#">Fantasy</a></li>
-              <li><a href="#">Science Fiction</a></li>
-              <li><a href="#">Combat</a></li>
-              <li><a href="#">Super Heroes</a></li>
-              <li><a href="#">More</a></li>
-            </ul>
-          </li>
+      <nav class="top-bar" data-topbar>
+
+      <!-- <nav class="top-bar" data-topbar role="navigation" display="block"> -->
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#"><img src="images/logo_header.png" width="100px"> </a></h1>
+            </li>
+             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+          <!-- Left Nav Section -->
+            <ul class="left">
+              <li class="has-dropdown">
+                <a href="#">Interests</a>
+                <ul class="dropdown">
+                  <li><a href="#">Fantasy</a></li>
+                  <li><a href="#">Science Fiction</a></li>
+                  <li><a href="#">Combat</a></li>
+                  <li><a href="#">Super Heroes</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </li>
 
 
-          <li class="has-dropdown">
-            <a href="#">Categories</a>
-            <ul class="dropdown">
-              <li><a href="#">Strategy</a></li>
-              <li><a href="#">Trading Card</a></li>
-              <li><a href="#">Role Playing</a></li>
-              <li><a href="#">Accessories</a></li>
-              <li><a href="#">More</a></li>
-            </ul>
-          </li>
+              <li class="has-dropdown">
+                <a href="#">Categories</a>
+                <ul class="dropdown">
+                  <li><a href="#">Strategy</a></li>
+                  <li><a href="#">Trading Card</a></li>
+                  <li><a href="#">Role Playing</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </li>
 
-          <div class="left">
-            <input type="text" placeholder="Find Stuff">
-            </div>
-            <div class="left">
-            <a href="#" class="alert button expand">Search</a>
+              <div class="left">
+                <input type="text" placeholder="Find Stuff">
+                </div>
+                <div class="left">
+                <a href="results.html" class="alert button expand">Search</a>
+              </div>
+              </ul>
+              <ul>
+              <div class="right">
+                  <li><a href="cart.html">Cart</a></li>
+              </ul>
           </div>
-        </ul>
-        
-        <ul class="left">
-          <li><a href="#">Cart</a></li>
-        </ul>
-      </section>
-     </nav>
 
      <div class="row">
       <div class="large-12 columns">
@@ -70,7 +73,7 @@
       <li>
         <img src="images/DnD_Starter_Set.png" />
       </li>
-      <li>
+      <li class="product-description">
         <h3>Dungeons & Dragons Starter Set</h3>
         <p><b>$29.95</b></p>
         <p>
@@ -171,12 +174,16 @@
         </p> 
         </section>
       </div>
-     <hr>
 
     </div>
   </div>
 
-    <img src="images/footer.png">
+    <div class="footer">
+
+       <h6>Tabletop gaming has always thrived on community. Passionate game geeks who play, talk about, create, and teach others about games. Here at Waystone, we strive to embolden that community for those times you don’t have it in person. Shop for games. Talk about games. Learn about games.<h6>
+
+       <h3>Welcome to Waystone.</h3> 
+    </div>
 
     <nav class="top-bar">
     </nav>

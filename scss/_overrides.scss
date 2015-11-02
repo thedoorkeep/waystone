@@ -1,6 +1,10 @@
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
 .header {
-  background-image: url('../images/dfnsdvnb.png');
-  background-color: green;
+  background-image: url('http://magic.wizards.com/sites/mtg/files/Arcana_02.jpg');
   background-size: cover;
   background-position: center center;
   height: 15vh;
@@ -24,8 +28,7 @@
 }
 
 .suggested {
-  background-image: url('../images/dfnsdvnb.png');
-  background-color: green;
+  background-image: url('http://static.dolimg.com/lucas/movies/starwars/starwars_films_03-a5f94b04af09.jpg');
   background-size: cover;
   background-position: center center;
   height: 15vh;
@@ -33,19 +36,67 @@
   text-align: center;
 }
 
-.header h2, .header h4 {
+.suggested h2, .suggested h4 {
   color: $white;
   margin-bottom: 0px;
   padding-top: 20px;
   text-transform: uppercase;
 }
 
-.header h2 {
+.suggested h2 {
   font-size: 3em;
   margin-top: -5px;
   padding-top: 0px;
   padding-bottom: 10px;
   text-transform: uppercase;
+}
+
+.suggested2 {
+  background-image: url('http://www.itsgametimela.com/wp-content/uploads/2014/10/dungeons-and-dragons.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 15vh;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.suggested2 h2, .suggested2 h4 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.suggested2 h2 {
+  font-size: 3em;
+  margin-top: -5px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-image: url('http://victoryleo.net/wp-content/uploads/2015/08/powergrid_1.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 15vh;
+  text-align: center;
+}
+
+.footer h3, .footer h6 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-left:15%;
+  padding-right:15%;
+
+}
+
+.footer h3 {
+  margin-top: -5px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+
 }
 
 .contain-to-grid {
@@ -61,6 +112,12 @@
   height: 100px;
   display: block;
 }
+
+.product-description {
+  padding:20%;
+}
+
+
 
 
 .box-6 {
@@ -173,6 +230,8 @@ p{
 }
 
 
+
+
 $include-html-tabs-classes: $include-html-classes;
 
 $tabs-navigation-padding: rem-calc(16);
@@ -194,6 +253,10 @@ h1 {font-family: 'Oswald', sans-serif;}
 h2 {font-family: 'Oswald', sans-serif;}
 h3 {font-family: 'Oswald', sans-serif;}
 h4 {font-family: 'Oswald', sans-serif;}
+h5 {font-family: 'Oswald', sans-serif;}
+h6 {font-family: 'Oswald', sans-serif;}
+h7 {font-family: 'Oswald', sans-serif;}
+h8 {font-family: 'Oswald', sans-serif;}
 
 
 // Top Bar Variables
