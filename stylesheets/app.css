@@ -9735,7 +9735,51 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 2, ../scss/_overrides.scss */
+/* line 1, ../scss/_overrides.scss */
+.header {
+  background-image: url("../images/dfnsdvnb.png");
+  background-color: green;
+  background-size: cover;
+  background-position: center center;
+  height: 15vh;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* line 11, ../scss/_overrides.scss */
+.header h2, .header h4 {
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+/* line 18, ../scss/_overrides.scss */
+.header h2 {
+  font-size: 3em;
+  margin-top: -5px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* line 26, ../scss/_overrides.scss */
+.contain-to-grid {
+  height: 52px;
+}
+
+/* line 30, ../scss/_overrides.scss */
+.gamelist {
+  margin-top: 50px;
+}
+
+/* line 34, ../scss/_overrides.scss */
+.gamelist li {
+  height: 100px;
+  display: block;
+}
+
+/* line 41, ../scss/_overrides.scss */
 .box-6 {
   display: block;
   padding: 0;
@@ -9772,12 +9816,12 @@ th.hide-for-touch {
 .box-6 > li:nth-of-type(6n+1) {
   clear: both;
 }
-/* line 17, ../scss/_overrides.scss */
+/* line 56, ../scss/_overrides.scss */
 .box-6 li {
   display: inline-block;
 }
 
-/* line 23, ../scss/_overrides.scss */
+/* line 62, ../scss/_overrides.scss */
 .box-2 {
   display: block;
   padding: 0;
@@ -9815,7 +9859,7 @@ th.hide-for-touch {
 }
 
 @media (max-width: 46em) {
-  /* line 37, ../scss/_overrides.scss */
+  /* line 76, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -9852,7 +9896,7 @@ th.hide-for-touch {
     clear: both;
   }
 
-  /* line 44, ../scss/_overrides.scss */
+  /* line 83, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -9890,7 +9934,7 @@ th.hide-for-touch {
   }
 }
 @media (max-width: 40em) {
-  /* line 54, ../scss/_overrides.scss */
+  /* line 93, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -9927,7 +9971,7 @@ th.hide-for-touch {
     clear: both;
   }
 
-  /* line 61, ../scss/_overrides.scss */
+  /* line 100, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -9964,75 +10008,75 @@ th.hide-for-touch {
     clear: both;
   }
 }
-/* line 70, ../scss/_overrides.scss */
+/* line 109, ../scss/_overrides.scss */
 .main-page {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 77, ../scss/_overrides.scss */
+/* line 116, ../scss/_overrides.scss */
 .product-link {
   padding-top: 10px;
 }
 
-/* line 81, ../scss/_overrides.scss */
+/* line 120, ../scss/_overrides.scss */
 .product-price {
   padding-top: -20px;
 }
 
-/* line 85, ../scss/_overrides.scss */
+/* line 124, ../scss/_overrides.scss */
 ul.tabs {
   text-align: center;
 }
-/* line 87, ../scss/_overrides.scss */
+/* line 126, ../scss/_overrides.scss */
 ul.tabs li {
   float: none !important;
   display: inline-block;
   background-color: 123456;
 }
 
-/* line 94, ../scss/_overrides.scss */
+/* line 133, ../scss/_overrides.scss */
 .custom-flex-video-class {
   text-align: center;
 }
-/* line 96, ../scss/_overrides.scss */
+/* line 135, ../scss/_overrides.scss */
 .custom-flex-video-class li {
   display: inline-block;
 }
 
-/* line 101, ../scss/_overrides.scss */
+/* line 140, ../scss/_overrides.scss */
 .product-top {
   margin-top: 20px;
   padding: 10px;
 }
 
-/* line 107, ../scss/_overrides.scss */
+/* line 146, ../scss/_overrides.scss */
 p {
   font-size: 10pt;
 }
 
-/* line 128, ../scss/_overrides.scss */
+/* line 167, ../scss/_overrides.scss */
 body {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 129, ../scss/_overrides.scss */
+/* line 168, ../scss/_overrides.scss */
 h1 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 130, ../scss/_overrides.scss */
+/* line 169, ../scss/_overrides.scss */
 h2 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 131, ../scss/_overrides.scss */
+/* line 170, ../scss/_overrides.scss */
 h3 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 132, ../scss/_overrides.scss */
+/* line 171, ../scss/_overrides.scss */
 h4 {
   font-family: 'Oswald', sans-serif;
 }

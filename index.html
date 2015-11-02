@@ -17,56 +17,77 @@
          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
       </ul>
+    <div class="contain-to-grid sticky">
 
-      <section class="top-bar-section">
-      <!-- Left Nav Section -->
-        <ul class="left">
-          <li class="has-dropdown">
-            <a href="#">Interests</a>
-            <ul class="dropdown">
-              <li><a href="#">Fantasy</a></li>
-              <li><a href="#">Science Fiction</a></li>
-              <li><a href="#">Combat</a></li>
-              <li><a href="#">Super Heroes</a></li>
-              <li><a href="#">More</a></li>
+      <nav class="top-bar" data-topbar>
+
+      <!-- <nav class="top-bar" data-topbar role="navigation" display="block"> -->
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#"><img src="images/logo_header.png" width="100px"> </a></h1>
+            </li>
+             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+          <!-- Left Nav Section -->
+            <ul class="left">
+              <li class="has-dropdown">
+                <a href="#">Interests</a>
+                <ul class="dropdown">
+                  <li><a href="#">Fantasy</a></li>
+                  <li><a href="#">Science Fiction</a></li>
+                  <li><a href="#">Combat</a></li>
+                  <li><a href="#">Super Heroes</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </li>
+
+
+              <li class="has-dropdown">
+                <a href="#">Categories</a>
+                <ul class="dropdown">
+                  <li><a href="#">Strategy</a></li>
+                  <li><a href="#">Trading Card</a></li>
+                  <li><a href="#">Role Playing</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </li>
+
+              <div class="left">
+                <input type="text" placeholder="Find Stuff">
+                </div>
+                <div class="left">
+                <a href="#" class="alert button expand">Search</a>
+              </div>
             </ul>
-          </li>
 
-
-          <li class="has-dropdown">
-            <a href="#">Categories</a>
-            <ul class="dropdown">
-              <li><a href="#">Strategy</a></li>
-              <li><a href="#">Trading Card</a></li>
-              <li><a href="#">Role Playing</a></li>
-              <li><a href="#">Accessories</a></li>
-              <li><a href="#">More</a></li>
+            <ul class="right">
+              <li><a href="#">Cart</a></li>
             </ul>
-          </li>
+          </section>
+    </nav>
+  </div>
 
-          <div class="left">
-            <input type="text" placeholder="Find Stuff">
-            </div>
-            <div class="left">
-            <a href="#" class="alert button expand">Search</a>
-          </div>
-        </ul>
-        
-        <ul class="left">
-          <li><a href="#">Cart</a></li>
-        </ul>
-      </section>
-     </nav>
+     <div class="header">
+       <h4>Community of the week</h4>
+       <h2>Strategy</h2>
+     </div>
 
-    <img src="images/header.png">
-    <div class="row">
-      <div class="large-12 columns">
-      
+    <!-- <img src="images/header.png"> -->
+
+    <!-- <div class="row">
+      <div class="large-12 columns header">
+      </div>
+
       <hr>
-    </div>
+    </div> -->
 
 
-     <div>
+    <div class="row">
+      <div class="gamelist">
       <!--product section-->
 
       <h3>New and Popular Games</h3>
@@ -98,7 +119,7 @@
           <p class="product-link">Pokemon Card Game</p>
           <p><b>$19.95</b></p>
         </li>
-        
+
       </ul>
 
 
@@ -129,10 +150,11 @@
           <p><b>$14.95</b></p>
         </li>
       </ul>
-    </div> 
-    
+    </div>
+    </div>
+
     <hr>
-    
+
     <div>
       <!--suggested section-->
 
@@ -142,7 +164,7 @@
         <li><img src="images/pandemic.png" /></li>
       </ul>
       <hr>
-    </div> 
+    </div>
 
   </div>
 
@@ -168,6 +190,6 @@
      <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
-    
+
   </body>
 </html>
