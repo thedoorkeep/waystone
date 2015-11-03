@@ -9989,7 +9989,7 @@ a {
 }
 
 /* line 229, ../scss/_overrides.scss */
-.communities h3 {
+.communities h3, .communities h4 {
   margin-top: 30px;
 }
 
@@ -10335,93 +10335,92 @@ a {
 }
 /* line 329, ../scss/_overrides.scss */
 .main-page {
-  display: inline-block;
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 336, ../scss/_overrides.scss */
+/* line 335, ../scss/_overrides.scss */
 .product-link {
   padding-top: 10px;
 }
 
-/* line 340, ../scss/_overrides.scss */
+/* line 339, ../scss/_overrides.scss */
 .product-price {
   padding-top: -20px;
 }
 
-/* line 344, ../scss/_overrides.scss */
+/* line 343, ../scss/_overrides.scss */
 ul.tabs {
   text-align: center;
 }
-/* line 346, ../scss/_overrides.scss */
+/* line 345, ../scss/_overrides.scss */
 ul.tabs li {
   float: none !important;
   display: inline-block;
   background-color: 123456;
 }
 
-/* line 353, ../scss/_overrides.scss */
+/* line 352, ../scss/_overrides.scss */
 .custom-flex-video-class {
   text-align: center;
 }
-/* line 355, ../scss/_overrides.scss */
+/* line 354, ../scss/_overrides.scss */
 .custom-flex-video-class li {
   display: inline-block;
 }
 
-/* line 360, ../scss/_overrides.scss */
+/* line 359, ../scss/_overrides.scss */
 .product-top {
   margin-top: 20px;
   padding: 10px;
 }
 
-/* line 366, ../scss/_overrides.scss */
+/* line 365, ../scss/_overrides.scss */
 p {
   font-size: 10pt;
 }
 
-/* line 389, ../scss/_overrides.scss */
+/* line 388, ../scss/_overrides.scss */
 body {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 390, ../scss/_overrides.scss */
+/* line 389, ../scss/_overrides.scss */
 h1 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 391, ../scss/_overrides.scss */
+/* line 390, ../scss/_overrides.scss */
 h2 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 392, ../scss/_overrides.scss */
+/* line 391, ../scss/_overrides.scss */
 h3 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 393, ../scss/_overrides.scss */
+/* line 392, ../scss/_overrides.scss */
 h4 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 394, ../scss/_overrides.scss */
+/* line 393, ../scss/_overrides.scss */
 h5 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 395, ../scss/_overrides.scss */
+/* line 394, ../scss/_overrides.scss */
 h6 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 396, ../scss/_overrides.scss */
+/* line 395, ../scss/_overrides.scss */
 h7 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 397, ../scss/_overrides.scss */
+/* line 396, ../scss/_overrides.scss */
 h8 {
   font-family: 'Oswald', sans-serif;
 }
