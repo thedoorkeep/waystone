@@ -3,6 +3,22 @@ a {
   text-decoration: none;
  }
 
+ .header-c {
+  background-image: url('http://static2.gamespot.com/uploads/original/1365/13658182/2916876-star_wars_battlefront_-_fighter_squadron_-_millennium_falcon___final_for_release.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 15vh;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.header-c h2, .header-c h4 {
+  color: $white;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
 .header {
   background-image: url('http://magic.wizards.com/sites/mtg/files/Arcana_02.jpg');
   background-size: cover;
@@ -79,7 +95,7 @@ a {
   background-image: url('http://victoryleo.net/wp-content/uploads/2015/08/powergrid_1.jpg');
   background-size: cover;
   background-position: center center;
-  height: 15vh;
+  height: 150px;
   text-align: center;
 }
 
@@ -104,9 +120,7 @@ a {
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
@@ -122,9 +136,7 @@ a {
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
@@ -140,9 +152,7 @@ a {
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
@@ -154,13 +164,11 @@ a {
 }
 
 .category4 {
-  background-image: url('http://www.scoopquest.com/wp-content/uploads/2015/08/fantasy-landscapes-artists.jpg');
+  background-image: url('http://www.itsgametimela.com/wp-content/uploads/2014/10/dungeons-and-dragons.jpg');
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
@@ -176,9 +184,7 @@ a {
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
@@ -194,9 +200,7 @@ a {
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 

@@ -9742,6 +9742,24 @@ a {
 }
 
 /* line 6, ../scss/_overrides.scss */
+.header-c {
+  background-image: url("http://static2.gamespot.com/uploads/original/1365/13658182/2916876-star_wars_battlefront_-_fighter_squadron_-_millennium_falcon___final_for_release.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 15vh;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* line 15, ../scss/_overrides.scss */
+.header-c h2, .header-c h4 {
+  color: #fff;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+/* line 22, ../scss/_overrides.scss */
 .header {
   background-image: url("http://magic.wizards.com/sites/mtg/files/Arcana_02.jpg");
   background-size: cover;
@@ -9751,7 +9769,7 @@ a {
   text-align: center;
 }
 
-/* line 15, ../scss/_overrides.scss */
+/* line 31, ../scss/_overrides.scss */
 .header h2, .header h4 {
   color: #fff;
   margin-bottom: 0px;
@@ -9759,7 +9777,7 @@ a {
   text-transform: uppercase;
 }
 
-/* line 22, ../scss/_overrides.scss */
+/* line 38, ../scss/_overrides.scss */
 .header h2 {
   font-size: 3em;
   margin-top: -5px;
@@ -9768,7 +9786,7 @@ a {
   text-transform: uppercase;
 }
 
-/* line 30, ../scss/_overrides.scss */
+/* line 46, ../scss/_overrides.scss */
 .suggested {
   background-image: url("http://static.dolimg.com/lucas/movies/starwars/starwars_films_03-a5f94b04af09.jpg");
   background-size: cover;
@@ -9778,7 +9796,7 @@ a {
   text-align: center;
 }
 
-/* line 39, ../scss/_overrides.scss */
+/* line 55, ../scss/_overrides.scss */
 .suggested h2, .suggested h4 {
   color: #fff;
   margin-bottom: 0px;
@@ -9786,7 +9804,7 @@ a {
   text-transform: uppercase;
 }
 
-/* line 46, ../scss/_overrides.scss */
+/* line 62, ../scss/_overrides.scss */
 .suggested h2 {
   font-size: 3em;
   margin-top: -5px;
@@ -9795,7 +9813,7 @@ a {
   text-transform: uppercase;
 }
 
-/* line 54, ../scss/_overrides.scss */
+/* line 70, ../scss/_overrides.scss */
 .suggested2 {
   background-image: url("http://www.itsgametimela.com/wp-content/uploads/2014/10/dungeons-and-dragons.jpg");
   background-size: cover;
@@ -9805,7 +9823,7 @@ a {
   text-align: center;
 }
 
-/* line 63, ../scss/_overrides.scss */
+/* line 79, ../scss/_overrides.scss */
 .suggested2 h2, .suggested2 h4 {
   color: #fff;
   margin-bottom: 0px;
@@ -9813,7 +9831,7 @@ a {
   text-transform: uppercase;
 }
 
-/* line 70, ../scss/_overrides.scss */
+/* line 86, ../scss/_overrides.scss */
 .suggested2 h2 {
   font-size: 3em;
   margin-top: -5px;
@@ -9822,16 +9840,16 @@ a {
   text-transform: uppercase;
 }
 
-/* line 78, ../scss/_overrides.scss */
+/* line 94, ../scss/_overrides.scss */
 .footer {
   background-image: url("http://victoryleo.net/wp-content/uploads/2015/08/powergrid_1.jpg");
   background-size: cover;
   background-position: center center;
-  height: 15vh;
+  height: 150px;
   text-align: center;
 }
 
-/* line 86, ../scss/_overrides.scss */
+/* line 102, ../scss/_overrides.scss */
 .footer h3, .footer h6 {
   color: #fff;
   margin-bottom: 0px;
@@ -9840,26 +9858,24 @@ a {
   padding-right: 15%;
 }
 
-/* line 95, ../scss/_overrides.scss */
+/* line 111, ../scss/_overrides.scss */
 .footer h3 {
   margin-top: -5px;
   padding-top: 0px;
   padding-bottom: 10px;
 }
 
-/* line 102, ../scss/_overrides.scss */
+/* line 118, ../scss/_overrides.scss */
 .category1 {
   background-image: url("http://i.ytimg.com/vi/sx15eTtzCTw/maxresdefault.jpg");
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
-/* line 113, ../scss/_overrides.scss */
+/* line 127, ../scss/_overrides.scss */
 .category1 h2 {
   color: #fff;
   margin-bottom: 0px;
@@ -9867,19 +9883,17 @@ a {
   text-transform: uppercase;
 }
 
-/* line 120, ../scss/_overrides.scss */
+/* line 134, ../scss/_overrides.scss */
 .category2 {
   background-image: url("http://www.cheatography.com/uploads/davechild_1359015936_catan-photo.png");
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
-/* line 131, ../scss/_overrides.scss */
+/* line 143, ../scss/_overrides.scss */
 .category2 h2 {
   color: #fff;
   margin-bottom: 0px;
@@ -9887,19 +9901,17 @@ a {
   text-transform: uppercase;
 }
 
-/* line 138, ../scss/_overrides.scss */
+/* line 150, ../scss/_overrides.scss */
 .category3 {
   background-image: url("http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/04/1-JJKathy-NO-LOGO.jpg");
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
-/* line 149, ../scss/_overrides.scss */
+/* line 159, ../scss/_overrides.scss */
 .category3 h2 {
   color: #fff;
   margin-bottom: 0px;
@@ -9907,19 +9919,17 @@ a {
   text-transform: uppercase;
 }
 
-/* line 156, ../scss/_overrides.scss */
+/* line 166, ../scss/_overrides.scss */
 .category4 {
-  background-image: url("http://www.scoopquest.com/wp-content/uploads/2015/08/fantasy-landscapes-artists.jpg");
+  background-image: url("http://www.itsgametimela.com/wp-content/uploads/2014/10/dungeons-and-dragons.jpg");
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
-/* line 167, ../scss/_overrides.scss */
+/* line 175, ../scss/_overrides.scss */
 .category4 h2 {
   color: #fff;
   margin-bottom: 0px;
@@ -9927,19 +9937,17 @@ a {
   text-transform: uppercase;
 }
 
-/* line 174, ../scss/_overrides.scss */
+/* line 182, ../scss/_overrides.scss */
 .category5 {
   background-image: url("http://conceptartworld.com/wp-content/uploads/2013/05/Creating_a_Sci-Fi_Robot_Warrior_in_ZBrush_04b.jpg");
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
-/* line 185, ../scss/_overrides.scss */
+/* line 191, ../scss/_overrides.scss */
 .category5 h2 {
   color: #fff;
   margin-bottom: 0px;
@@ -9947,19 +9955,17 @@ a {
   text-transform: uppercase;
 }
 
-/* line 192, ../scss/_overrides.scss */
+/* line 198, ../scss/_overrides.scss */
 .category6 {
   background-image: url("http://cdns.yournewswire.com/wp-content/uploads/2015/03/spies-spying-on-spies-600x264.jpg");
   background-size: cover;
   background-position: center center;
   height: 150px;
-  width: 200px;
   margin-top: 10px;
-  padding: 2px;
   text-align: center;
 }
 
-/* line 203, ../scss/_overrides.scss */
+/* line 207, ../scss/_overrides.scss */
 .category6 h2 {
   color: #fff;
   margin-bottom: 0px;
@@ -9967,33 +9973,33 @@ a {
   text-transform: uppercase;
 }
 
-/* line 211, ../scss/_overrides.scss */
+/* line 215, ../scss/_overrides.scss */
 .contain-to-grid {
   height: 52px;
 }
 
-/* line 215, ../scss/_overrides.scss */
+/* line 219, ../scss/_overrides.scss */
 .gamelist {
   margin-top: 50px;
 }
 
-/* line 219, ../scss/_overrides.scss */
+/* line 223, ../scss/_overrides.scss */
 .gamelist li {
   height: 100px;
   display: block;
 }
 
-/* line 225, ../scss/_overrides.scss */
+/* line 229, ../scss/_overrides.scss */
 .product-description {
   padding: 20%;
 }
 
-/* line 229, ../scss/_overrides.scss */
+/* line 233, ../scss/_overrides.scss */
 .communities h3, .communities h4 {
   margin-top: 30px;
 }
 
-/* line 233, ../scss/_overrides.scss */
+/* line 237, ../scss/_overrides.scss */
 .box-6 {
   display: block;
   padding: 0;
@@ -10030,12 +10036,12 @@ a {
 .box-6 > li:nth-of-type(6n+1) {
   clear: both;
 }
-/* line 248, ../scss/_overrides.scss */
+/* line 252, ../scss/_overrides.scss */
 .box-6 li {
   display: inline-block;
 }
 
-/* line 255, ../scss/_overrides.scss */
+/* line 259, ../scss/_overrides.scss */
 .box-2 {
   display: block;
   padding: 0;
@@ -10072,7 +10078,7 @@ a {
   clear: both;
 }
 
-/* line 268, ../scss/_overrides.scss */
+/* line 272, ../scss/_overrides.scss */
 .box-3 {
   display: block;
   padding: 0;
@@ -10110,7 +10116,7 @@ a {
 }
 
 @media (max-width: 46em) {
-  /* line 282, ../scss/_overrides.scss */
+  /* line 286, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -10147,7 +10153,7 @@ a {
     clear: both;
   }
 
-  /* line 289, ../scss/_overrides.scss */
+  /* line 293, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -10184,7 +10190,7 @@ a {
     clear: both;
   }
 
-  /* line 296, ../scss/_overrides.scss */
+  /* line 300, ../scss/_overrides.scss */
   .box-3 {
     display: block;
     padding: 0;
@@ -10222,7 +10228,7 @@ a {
   }
 }
 @media (max-width: 40em) {
-  /* line 306, ../scss/_overrides.scss */
+  /* line 310, ../scss/_overrides.scss */
   .box-6 {
     display: block;
     padding: 0;
@@ -10259,7 +10265,7 @@ a {
     clear: both;
   }
 
-  /* line 313, ../scss/_overrides.scss */
+  /* line 317, ../scss/_overrides.scss */
   .box-2 {
     display: block;
     padding: 0;
@@ -10296,7 +10302,7 @@ a {
     clear: both;
   }
 
-  /* line 320, ../scss/_overrides.scss */
+  /* line 324, ../scss/_overrides.scss */
   .box-3 {
     display: block;
     padding: 0;
@@ -10333,94 +10339,94 @@ a {
     clear: both;
   }
 }
-/* line 329, ../scss/_overrides.scss */
+/* line 333, ../scss/_overrides.scss */
 .main-page {
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 335, ../scss/_overrides.scss */
+/* line 339, ../scss/_overrides.scss */
 .product-link {
   padding-top: 10px;
 }
 
-/* line 339, ../scss/_overrides.scss */
+/* line 343, ../scss/_overrides.scss */
 .product-price {
   padding-top: -20px;
 }
 
-/* line 343, ../scss/_overrides.scss */
+/* line 347, ../scss/_overrides.scss */
 ul.tabs {
   text-align: center;
 }
-/* line 345, ../scss/_overrides.scss */
+/* line 349, ../scss/_overrides.scss */
 ul.tabs li {
   float: none !important;
   display: inline-block;
   background-color: 123456;
 }
 
-/* line 352, ../scss/_overrides.scss */
+/* line 356, ../scss/_overrides.scss */
 .custom-flex-video-class {
   text-align: center;
 }
-/* line 354, ../scss/_overrides.scss */
+/* line 358, ../scss/_overrides.scss */
 .custom-flex-video-class li {
   display: inline-block;
 }
 
-/* line 359, ../scss/_overrides.scss */
+/* line 363, ../scss/_overrides.scss */
 .product-top {
   margin-top: 20px;
   padding: 10px;
 }
 
-/* line 365, ../scss/_overrides.scss */
+/* line 369, ../scss/_overrides.scss */
 p {
   font-size: 10pt;
 }
 
-/* line 388, ../scss/_overrides.scss */
+/* line 392, ../scss/_overrides.scss */
 body {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 389, ../scss/_overrides.scss */
+/* line 393, ../scss/_overrides.scss */
 h1 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 390, ../scss/_overrides.scss */
+/* line 394, ../scss/_overrides.scss */
 h2 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 391, ../scss/_overrides.scss */
+/* line 395, ../scss/_overrides.scss */
 h3 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 392, ../scss/_overrides.scss */
+/* line 396, ../scss/_overrides.scss */
 h4 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 393, ../scss/_overrides.scss */
+/* line 397, ../scss/_overrides.scss */
 h5 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 394, ../scss/_overrides.scss */
+/* line 398, ../scss/_overrides.scss */
 h6 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 395, ../scss/_overrides.scss */
+/* line 399, ../scss/_overrides.scss */
 h7 {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 396, ../scss/_overrides.scss */
+/* line 400, ../scss/_overrides.scss */
 h8 {
   font-family: 'Oswald', sans-serif;
 }
